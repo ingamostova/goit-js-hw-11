@@ -1,0 +1,24 @@
+.search-form {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* background-color: darkblue; */
+  box-shadow: 10px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.photo-card {
+  flex-basis: 300px;
+}
