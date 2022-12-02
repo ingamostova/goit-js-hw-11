@@ -1,9 +1,13 @@
 .search-form {
+  z-index: 1000;
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  /* background-color: darkblue; */
-  box-shadow: 10px;
+  text-align: center;
+  background-color: gray;
+  margin: 0;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 img {
