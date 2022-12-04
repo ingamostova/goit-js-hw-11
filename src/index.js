@@ -70,6 +70,7 @@ function onSubmit(evt) {
 function onLoadMore() {
   fetchPictures(refs.form.elements.searchQuery.value).then(data => {
     createMarkup(data.hits);
+    lightbox.refresh();
     if (total >= data.totalHits) {
       Notify.info("We're sorry, but you've reached the end of search results.");
       refs.btnLoadMore.hidden = true;
