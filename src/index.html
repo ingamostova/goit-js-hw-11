@@ -8,19 +8,21 @@
     <!-- <script type="module" src="./index.js"></script> -->
   </head>
   <body>
-    <form class="search-form" id="search-form">
-      <input
-        type="text"
-        name="searchQuery"
-        autocomplete="off"
-        placeholder="Search images..."
-      />
-      <button type="submit">Search</button>
-    </form>
-    <div class="gallery">
-      <!-- Картки зображень -->
+    <div class="container">
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+        />
+        <button type="submit">Search</button>
+      </form>
+      <div class="gallery">
+        <!-- Картки зображень -->
+      </div>
+      <button type="button" hidden class="load-more">Load more</button>
     </div>
-    <button type="button" hidden class="load-more">Load more</button>
     <script src="index.js" type="module"></script>
   </body>
 </html>
